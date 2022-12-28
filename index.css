@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    font-family: 'Source Sans Pro',
+}
+
+/* header section */
+
+header {
+    width: 375px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    /* border: 1px solid; */
+    
+}
+
+.logo {
+    width: 127px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.image-size {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* main */
+.user-details {
+    display: flex;
+    /* border: 1px solid; */
+    width: 375px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.user-name, .user-address {
+    margin: 0;
+}
+
+.user-name-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.user-name {
+    font-size: 13px;
+}
+
+.user-address {
+    font-size: 12px;
+}
+
+/* image */
+.post-image {
+    width: 375px;
+    height: 375px;
+}
+
+/* reaction */
+
+.reactions {
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 5px;
+}
+
+.reaction-size {
+    width: 27px;
+    height: 27px;
+    margin: 3px;
+}
+
+.like-comment h3 {
+    font-size: 13px;
+}
+
+.like-comment {
+    margin: 3px;
+}
+
+span {
+    font-weight: bold;
+}
